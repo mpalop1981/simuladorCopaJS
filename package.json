@@ -1,0 +1,21 @@
+{
+  "name": "simuladorCopaJS",
+  "version": "1.0.0",
+  "description": "Simulador de la copa del mundo de fútbol.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mpalop1981/simuladorCopaJS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mpalop1981/simuladorCopaJS/issues"
+  },
+  "homepage": "https://github.com/mpalop1981/simuladorCopaJS#readme",
+  "type": "module"
+}
