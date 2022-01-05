@@ -54,6 +54,13 @@ try {
   matches.forEach((x) => {
     console.log(`${x.team1} ${x.homeGoals} vs. ${x.team2} ${x.awayGoals}`);
   });
+  
+  console.log("*******************");
+  if(matches[0].homeGoals > matches[0].awayGoals){
+      console.log(`El equipo VENCEDOR de la copa es: ${matches[0].team1}`)
+  }else{
+      console.log(`El equipo VENCEDOR de la copa es: ${matches[0].team2}`)
+  } 
 } catch (error) {
   console.log("OH NO!");
   console.log(error.message);

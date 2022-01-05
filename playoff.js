@@ -8,7 +8,6 @@ export default class Playoff {
     this.teams = [];
     for (let teamName of teams) {
       let teamObj = this.customizeTeam(teamName);
-      // añadimos el objeto descriptivo del equipo al array de equipos
       this.teams.push(teamObj);
     }
   }
@@ -22,9 +21,8 @@ export default class Playoff {
   nextRoundPlayoff() {
     this.matchDay = [];
     for (let j = 0; j < this.teams.length / 2; j++) {
-      // generamos un template de partido: match
+      // generamos un template de partido
       let match = { home: "home", away: "away" };
-      // llenamos la jornada (matchDay) de partidos
       this.matchDay.push(match);
     }
     this.setTeamsToMatch();
